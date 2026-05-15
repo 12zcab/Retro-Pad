@@ -2307,6 +2307,12 @@
 		(uuid "ffb0b4c5-5291-49c7-8aee-0eea3262d609")
 	)
 	(junction
+		(at 227.33 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "046014ac-fe19-4565-befd-016a83d712cf")
+	)
+	(junction
 		(at 171.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2463,6 +2469,12 @@
 		(uuid "35c6caa0-5a35-4745-b6f4-f84d89f37348")
 	)
 	(junction
+		(at 200.66 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36249a1b-3167-4463-8fc1-29097f1b07b3")
+	)
+	(junction
 		(at 87.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,12 +2539,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a4060c5-f517-4e37-a311-b4e8590b547c")
-	)
-	(junction
-		(at 200.66 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a462e4e-278a-4b7d-a6d5-a54818c5bbe2")
 	)
 	(junction
 		(at 157.48 55.88)
@@ -2713,12 +2719,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ee95d0-e3ff-45c9-a90a-33e91a91233b")
-	)
-	(junction
-		(at 227.33 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac4dc470-12ed-43a4-afc6-5ce013a07e79")
 	)
 	(junction
 		(at 143.51 55.88)
@@ -3304,16 +3304,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 50.8) (xy 214.63 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b87b511-c019-4102-9fe4-a858aea17859")
-	)
-	(wire
-		(pts
 			(xy 88.9 66.04) (xy 102.87 66.04)
 		)
 		(stroke
@@ -3754,16 +3744,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 48.26) (xy 227.33 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c03cbe-28dc-4623-b08a-3084349287bc")
-	)
-	(wire
-		(pts
 			(xy 74.93 66.04) (xy 88.9 66.04)
 		)
 		(stroke
@@ -4011,6 +3991,16 @@
 			(type default)
 		)
 		(uuid "a0c85f32-af7b-4cc7-8fbf-1107a2ff7d76")
+	)
+	(wire
+		(pts
+			(xy 227.33 48.26) (xy 227.33 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a140bf02-0de1-493f-a1bf-78192a886041")
 	)
 	(wire
 		(pts
@@ -4374,6 +4364,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 50.8) (xy 214.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb96f227-7cc0-455b-b97e-ff6f71902b10")
+	)
+	(wire
+		(pts
 			(xy 31.75 123.19) (xy 44.45 123.19)
 		)
 		(stroke
@@ -4443,6 +4443,30 @@
 		(uuid "03908fca-fb45-41eb-a9d2-4bbc346d82d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 37.9345 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FN"
+		(shape bidirectional)
+		(at 44.45 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0803dc41-b115-442f-8184-401d8b6dfa52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.9344 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,30 +5150,6 @@
 			)
 		)
 	)
-	(global_label "CS"
-		(shape bidirectional)
-		(at 54.61 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "620e94d3-11ec-42e5-a6a8-872962be6c6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.186 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape bidirectional)
 		(at 54.61 92.71 0)
@@ -5267,6 +5267,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "NUM"
+		(shape bidirectional)
+		(at 44.45 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75d10741-7736-4e2e-8bb6-e1f5ce1a985e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.2411 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6172,7 +6196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03405231-c68f-4ee4-ad9e-ad7ae318daea")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 55.88 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6258,7 +6282,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c5ce1f-4932-4121-9209-c49d1bd221ef")
-		(property "Reference" "SW34"
+		(property "Reference" "SW45"
 			(at 63.5 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6735,7 +6759,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW34")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -7021,7 +7045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e50d9e6-592e-4ece-9946-92cbd8a1959a")
-		(property "Reference" "SW41"
+		(property "Reference" "SW35"
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7085,7 +7109,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW41")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -7431,7 +7455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14835f69-6070-4717-8d8b-ef260acfbb0e")
-		(property "Reference" "SW54"
+		(property "Reference" "SW55"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7495,7 +7519,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW54")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24019715-4ae7-4d3b-a2a4-9b71c94c22d3")
-		(property "Reference" "D46"
+		(property "Reference" "D51"
 			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +8307,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D46")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2598daf4-b5f4-428e-8a2c-70da5499e0f7")
-		(property "Reference" "SW30"
+		(property "Reference" "SW43"
 			(at 35.56 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8365,7 +8389,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW30")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -8465,7 +8489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b5fc35-2117-445f-9478-53b39739bdad")
-		(property "Reference" "SW44"
+		(property "Reference" "SW50"
 			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8529,7 +8553,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW44")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c12806d-eef9-4558-83e5-04a4a87d240c")
-		(property "Reference" "D33"
+		(property "Reference" "D31"
 			(at 69.85 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8657,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D33")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -8755,7 +8779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a61882-bb01-4653-a83c-10f0debf92f4")
-		(property "Reference" "SW42"
+		(property "Reference" "SW49"
 			(at 119.38 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8819,7 +8843,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW42")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -8941,7 +8965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "376a3495-d66a-4815-a501-814cd03cbf66")
-		(property "Reference" "D51"
+		(property "Reference" "D40"
 			(at 195.58 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +9051,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D51")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -9045,7 +9069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "376a4be3-5c27-492b-bbea-db28018f4cf0")
-		(property "Reference" "D35"
+		(property "Reference" "D32"
 			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9131,7 +9155,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D35")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -10101,7 +10125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47482860-65fe-4d85-a6fd-f971d5ad19bd")
-		(property "Reference" "SW37"
+		(property "Reference" "SW33"
 			(at 91.44 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10165,7 +10189,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW37")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -10511,7 +10535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dbc12cf-6643-48b5-b3e6-2af29aadd397")
-		(property "Reference" "SW45"
+		(property "Reference" "SW37"
 			(at 147.32 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10575,7 +10599,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW45")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -10675,7 +10699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1750df-9d62-40d6-9ce2-d99c0405c7a0")
-		(property "Reference" "D49"
+		(property "Reference" "D39"
 			(at 181.61 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10761,7 +10785,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D49")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -10974,7 +10998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5169f3e1-1b24-454f-ae7d-48b9ff8017ef")
-		(property "Reference" "SW36"
+		(property "Reference" "SW46"
 			(at 77.47 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11038,7 +11062,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW36")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -11160,7 +11184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56a3fbe8-4f64-4916-8b97-99895c005ddd")
-		(property "Reference" "SW43"
+		(property "Reference" "SW36"
 			(at 133.35 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +11248,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW43")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -11242,7 +11266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d01364-b107-489d-b165-4bcf32250005")
-		(property "Reference" "D52"
+		(property "Reference" "D54"
 			(at 195.58 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11328,7 +11352,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D52")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -11658,7 +11682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba2711b-ef5b-4f63-807f-eee4b42ade89")
-		(property "Reference" "D37"
+		(property "Reference" "D33"
 			(at 97.79 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11744,7 +11768,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D37")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -11878,7 +11902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60355179-8063-45c1-836b-9c13c8e8b10c")
-		(property "Reference" "D45"
+		(property "Reference" "D37"
 			(at 153.67 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11964,7 +11988,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D45")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -12354,7 +12378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bfbea57-e998-40e0-abd6-dc325700c688")
-		(property "Reference" "D48"
+		(property "Reference" "D52"
 			(at 167.64 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12440,7 +12464,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D48")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -12540,7 +12564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d27eb19-f34f-48f1-b1f3-09c92a4becf6")
-		(property "Reference" "SW32"
+		(property "Reference" "SW44"
 			(at 49.53 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12604,7 +12628,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW32")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -12808,7 +12832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70c58250-02da-4f41-9860-43c7f437c79f")
-		(property "Reference" "SW39"
+		(property "Reference" "SW34"
 			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12872,7 +12896,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW39")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -12890,7 +12914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73145577-a77f-427d-a10f-aa4573718624")
-		(property "Reference" "SW49"
+		(property "Reference" "SW39"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12954,7 +12978,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW49")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -13119,6 +13143,110 @@
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 223.52 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77336c10-ea15-4438-aee2-a550cd9aec40")
+		(property "Reference" "D42"
+			(at 223.52 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 223.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 223.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 223.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 223.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c5a5752-c25f-4ac9-b614-d17cffbc86c6")
+		)
+		(pin "2"
+			(uuid "67c6cce7-3b20-4a98-a33f-b5530bc25d31")
+		)
+		(instances
+			(project "BT_Keyboard"
+				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -13894,7 +14022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80875a2e-bdf5-48dd-b2da-390051607d5b")
-		(property "Reference" "D38"
+		(property "Reference" "D47"
 			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13980,7 +14108,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D38")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -13998,7 +14126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b7c013-0d3b-4d2e-b0e2-592c08590b3e")
-		(property "Reference" "SW46"
+		(property "Reference" "SW51"
 			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14062,7 +14190,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW46")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -14080,7 +14208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83f82e06-8730-4cd8-bd8b-2bf7a450c420")
-		(property "Reference" "SW53"
+		(property "Reference" "SW41"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14144,7 +14272,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW53")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -14452,7 +14580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93753d66-c2ca-407f-bdb7-b3ca00d6cff0")
-		(property "Reference" "D43"
+		(property "Reference" "D36"
 			(at 139.7 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14538,7 +14666,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D43")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -14660,7 +14788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "950ac1d2-aafc-4441-85a4-d2307001b45e")
-		(property "Reference" "D34"
+		(property "Reference" "D45"
 			(at 69.85 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14746,7 +14874,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D34")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -14764,7 +14892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9620afde-63ac-4dcc-8db8-dc5489f3fa65")
-		(property "Reference" "D44"
+		(property "Reference" "D50"
 			(at 139.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14850,7 +14978,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D44")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -14868,7 +14996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97842c4a-20b0-4e29-aaae-0b36858899e5")
-		(property "Reference" "SW40"
+		(property "Reference" "SW48"
 			(at 105.41 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14932,7 +15060,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW40")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -15672,7 +15800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02f86c0-0258-4ee6-8027-d59b0f825852")
-		(property "Reference" "D41"
+		(property "Reference" "D35"
 			(at 125.73 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15758,7 +15886,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D41")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -15940,7 +16068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c1077e-0156-4027-9610-8bc37fcfcb5f")
-		(property "Reference" "SW51"
+		(property "Reference" "SW40"
 			(at 189.23 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16004,7 +16132,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW51")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -16022,7 +16150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8082b18-5c90-427f-9d16-1018f97f6907")
-		(property "Reference" "D53"
+		(property "Reference" "D41"
 			(at 209.55 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16108,7 +16236,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D53")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -16230,7 +16358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae78251-d3f2-48e1-b07d-365fc7a471cd")
-		(property "Reference" "D40"
+		(property "Reference" "D48"
 			(at 111.76 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16316,7 +16444,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D40")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -16438,7 +16566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf2c035-35fe-42d7-89b0-cc465ad25ae8")
-		(property "Reference" "SW31"
+		(property "Reference" "SW30"
 			(at 49.53 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16502,7 +16630,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW31")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -16520,7 +16648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41c7b78-a85f-450f-9705-8d669e006903")
-		(property "Reference" "D42"
+		(property "Reference" "D49"
 			(at 125.73 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16606,7 +16734,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D42")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -16624,7 +16752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b436486b-589d-4655-9901-03abc1618a64")
-		(property "Reference" "D47"
+		(property "Reference" "D38"
 			(at 167.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16710,7 +16838,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D47")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -17390,7 +17518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be570934-d0de-4b92-a2bb-6239141769f1")
-		(property "Reference" "D50"
+		(property "Reference" "D53"
 			(at 181.61 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17476,7 +17604,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D50")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -17680,7 +17808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c060b825-d710-49d9-a9e4-4a1b4803e663")
-		(property "Reference" "D36"
+		(property "Reference" "D46"
 			(at 83.82 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17766,7 +17894,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D36")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -17871,6 +17999,87 @@
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 217.17 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c06f60e5-c523-48a9-9890-a529d3d82372")
+		(property "Reference" "SW42"
+			(at 217.17 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 217.17 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 217.17 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 217.17 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fec3f259-bb3a-44ce-bbe9-5e7b0e3af745")
+		)
+		(pin "2"
+			(uuid "4b344e52-2cfe-4b09-8cd5-e87f71dcda38")
+		)
+		(instances
+			(project "BT_Keyboard"
+				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -18052,7 +18261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f3daf9-8a26-4626-983b-6179782731f0")
-		(property "Reference" "SW52"
+		(property "Reference" "SW54"
 			(at 189.23 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18116,89 +18325,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 217.17 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c54838fe-505b-4226-8259-9ef02f990c4f")
-		(property "Reference" "SW55"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 217.17 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 217.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 217.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7dabd6d1-c0b9-4313-83c8-77bdce1cb77a")
-		)
-		(pin "2"
-			(uuid "511b84cb-ae4e-4723-a3e5-b3052cc90e62")
-		)
-		(instances
-			(project "BT_Keyboard"
-				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW55")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -18216,7 +18343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c580a410-995a-4ef2-b178-cef523fd82a7")
-		(property "Reference" "SW50"
+		(property "Reference" "SW53"
 			(at 175.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18280,7 +18407,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW50")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -18380,7 +18507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc33e87-58df-457b-b424-a9267b05a4d2")
-		(property "Reference" "SW35"
+		(property "Reference" "SW32"
 			(at 77.47 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -18444,7 +18571,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW35")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -18834,7 +18961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3febf80-9b64-406c-afcf-0def06d09318")
-		(property "Reference" "SW33"
+		(property "Reference" "SW31"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -18898,7 +19025,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW33")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -18998,7 +19125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ef2e90-27a7-49f2-85fe-bfa3dd724ef1")
-		(property "Reference" "SW48"
+		(property "Reference" "SW52"
 			(at 161.29 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19062,7 +19189,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW48")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -19288,7 +19415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1372448-bfe9-4f6c-94be-1dafc76de930")
-		(property "Reference" "D54"
+		(property "Reference" "D55"
 			(at 209.55 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19374,7 +19501,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -19392,7 +19519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16d17ce-bb41-4f62-8689-de61648b93b1")
-		(property "Reference" "SW47"
+		(property "Reference" "SW38"
 			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -19456,7 +19583,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW47")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -19556,7 +19683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1b2d7ca-aa8f-4dfb-8d2c-43ddca844374")
-		(property "Reference" "SW38"
+		(property "Reference" "SW47"
 			(at 91.44 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19620,7 +19747,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "SW38")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -20174,7 +20301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ed296d-3dfb-4947-94d0-a77c90dad6b3")
-		(property "Reference" "D39"
+		(property "Reference" "D34"
 			(at 111.76 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20260,7 +20387,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D39")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -20469,110 +20596,6 @@
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 223.52 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6b58e1a-d4ac-4261-8e1f-b53853fc080a")
-		(property "Reference" "D55"
-			(at 223.52 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 223.52 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 223.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 223.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 223.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 223.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c0ce4b4-c02a-47ab-a9be-645466259400")
-		)
-		(pin "2"
-			(uuid "3f17001e-640c-4ef7-81a2-f10ab5cdc2ae")
-		)
-		(instances
-			(project "BT_Keyboard"
-				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -20858,7 +20881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f98d86c4-bc17-415c-af3b-8d43c3cc5d49")
-		(property "Reference" "D30"
+		(property "Reference" "D43"
 			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -20944,7 +20967,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D30")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -20962,7 +20985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa02ad0b-3581-41d5-b079-39a26b8a490e")
-		(property "Reference" "D32"
+		(property "Reference" "D44"
 			(at 55.88 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -21048,7 +21071,7 @@
 		(instances
 			(project "BT_Keyboard"
 				(path "/f210272c-f4ad-4f9e-a078-15c527c1f296"
-					(reference "D32")
+					(reference "D44")
 					(unit 1)
 				)
 			)

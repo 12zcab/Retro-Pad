@@ -16,3 +16,13 @@ what i have done today:
 2. decided how am i going to stream the HDMI screen to tft (through UVC and HDMI to USB Capture Card(i found some cheap one))
 3. finished the simple Circuit in kicad and layouted some of them in Kicad
 
+
+
+
+
+Day2 15/5/2026
+
+Finished Kicad Layout and Routing
+
+We will move on to the coding part next time:D
+
