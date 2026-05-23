@@ -1,0 +1,3 @@
+[submodule "CherryKeysModel"]
+	path = CherryKeysModel
+	url = https://github.com/12zcab/cherry-mx-keycaps.git
