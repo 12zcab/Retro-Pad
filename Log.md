@@ -39,3 +39,12 @@ https://item.taobao.com/item.htm?ali\_refid=a3\_430008\_1006%3A1422310143%3AH%3A
 
 https://item.taobao.com/item.htm?abbucket=20\&id=892402646945\&mi\_id=00008PVZair30QEfFiEgqpUfwUhRiykNUhKd\_J1pzu8Z\_iA\&ns=1\&priceTId=2100cff417795213512193519e0d1d\&skuId=5908689555076\&spm=a21n57.1.hoverItem.11\&utparam=%7B%22aplus\_abtest%22%3A%22b225d9c1a26b6233dcdc5695b8bcce75%22%7D\&xxc=taobaoSearch
 
+
+
+Day3 23/5/2026
+
+Added the Speaker and Power Module.
+Finished Routing the PCB and generated Gerber and Drill Files
+
+Finished a Simple Firmware for testing
+
