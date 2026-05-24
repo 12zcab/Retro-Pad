@@ -48,3 +48,23 @@ Finished Routing the PCB and generated Gerber and Drill Files
 
 Finished a Simple Firmware for testing
 
+
+
+Day4 24/5/2026
+
+Redesigned the PCB for Hot-Swappable Keystrokes and routed it.
+
+Wrote some details for readme.md
+
+Also finished the BOM
+
+Rendered 3D image for the PCB
+
+Exported Gerber Files
+
+Exported PCB 3D files
+
+Included the CherryMX KeyCaps from another repo
+
+Erm i think my computer got some problem so i will finish the STL case next time
+
