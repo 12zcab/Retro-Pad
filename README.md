@@ -5,10 +5,10 @@ Yah its just a simple keyboard but include a 4inch tft and speaker for Retro Emu
 ## Zine Page Design
 Not Done Yet
 ## Images
-![Design](https://github.com/12zcab/Retro-Pad/tree/main/img/Design.png)
-![PCB_F](https://github.com/12zcab/Retro-Pad/tree/main/img/PCB_F.png)
-![PCB_B](https://github.com/12zcab/Retro-Pad/tree/main/img/PCB_B.png)
-![Routing](https://github.com/12zcab/Retro-Pad/tree/main/img/Routing.png)
+![Design](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Design.png)
+![PCB_F](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/PCB_F.png)
+![PCB_B](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/PCB_B.png)
+![Routing](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Routing.png)
 
 ## Notes
 Erm the Emulator Part is not yet programmed as i haven't build it irl yet
@@ -28,9 +28,8 @@ Also as i like Looking at PCBs so the case will be really simple
 5.may be also as a mini Piano?(Erm yah cuz why not?)
 
 ## Component List
-|---|---|---|
 |Name|Spec. Name|Usage| Quantities |
-|---|---|---|
+|----|----|----|
 |KeyStrokes|For My Self,高特青軸 (im not sure what its called in english)|For the Switches on Keyboard!| 77 |
 |KeyCaps| Cherry Key Caps | Key Caps that you press on | Depends |
 |ESP32 MCU board| ESP32 S3 N16R8 | A controller board that handles the TFT screen display and Bluetooth Communication | 1 |
@@ -41,4 +40,3 @@ Also as i like Looking at PCBs so the case will be really simple
 | LiBattery 3.7V | Any Capacity u want | 1 |
 | LiBattery 3.7v-5v Protector Board and Charger Board | same as the name | 1 |
 Also prepare some 2.54 Dupont Socket and PinHeaders incase if u may disassemble it or replace some modules.
-
