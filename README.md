@@ -28,6 +28,7 @@ Also as i like Looking at PCBs so the case will be really simple
 5.may be also as a mini Piano?(Erm yah cuz why not?)
 
 ## Component List
+
 | Name | Spec. Name | Usage | Quantities |
 |----|----|----|
 | KeyStrokes | For My Self,高特青軸 (im not sure what its called in english)| For the Switches on Keyboard!| 77 |
