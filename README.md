@@ -28,13 +28,13 @@ Also as i like Looking at PCBs so the case will be really simple
 5.may be also as a mini Piano?(Erm yah cuz why not?)
 
 ## Component List
-|Name|Spec. Name|Usage| Quantities |
+| Name | Spec. Name | Usage | Quantities |
 |----|----|----|
-|KeyStrokes|For My Self,高特青軸 (im not sure what its called in english)|For the Switches on Keyboard!| 77 |
-|KeyCaps| Cherry Key Caps | Key Caps that you press on | Depends |
-|ESP32 MCU board| ESP32 S3 N16R8 | A controller board that handles the TFT screen display and Bluetooth Communication | 1 |
-|TFT Screen| TFT 4inch Screen Module with 14 Pins | A medium size TFT that display the Emulated Content and also Let me reconfigure the Keyboard with GUI | 1 |
-|KeyStroke Hot Swappable Holders| Kailh KeyStroke Holders | 77 |
+| KeyStrokes | For My Self,高特青軸 (im not sure what its called in english)| For the Switches on Keyboard!| 77 |
+| KeyCaps | Cherry Key Caps | Key Caps that you press on | Depends |
+| ESP32 MCU board | ESP32 S3 N16R8 | A controller board that handles the TFT screen display and Bluetooth Communication | 1 |
+| TFT Screen | TFT 4inch Screen Module with 14 Pins | A medium size TFT that display the Emulated Content and also Let me reconfigure the Keyboard with GUI | 1 |
+| KeyStroke Hot Swappable Holders | Kailh KeyStroke Holders | 77 |
 | Speaker | 2W3718 Speaker Module | 1 |
 | LED for Fn and Caps Signal | Any THT Led | 2 |
 | LiBattery 3.7V | Any Capacity u want | 1 |
