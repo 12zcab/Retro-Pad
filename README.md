@@ -1,4 +1,4 @@
-\# Retro-Pad
+# Retro-Pad
 
 What happens if a keyboard can emulate Retro Stuff?
 
@@ -6,18 +6,18 @@ Yah its just a simple keyboard but include a 4inch tft and speaker for Retro Emu
 
 
 
-\## Zine Page Design
+## Zine Page Design
 
-\## Images
-!\[Design](https://github.com/12zcab/Retro-Pad/tree/main/img/Design.png)
+## Images
+![Design](https://github.com/12zcab/Retro-Pad/tree/main/img/Design.png)
 
-!\[PCB\_F](https://github.com/12zcab/Retro-Pad/tree/main/img/PCB\_F.png)
+![PCB_F](https://github.com/12zcab/Retro-Pad/tree/main/img/PCB_F.png)
 
-!\[PCB\_B](https://github.com/12zcab/Retro-Pad/tree/main/img/PCB\_B.png)
+![PCB_B](https://github.com/12zcab/Retro-Pad/tree/main/img/PCB_B.png)
 
-!\[Routing](https://github.com/12zcab/Retro-Pad/tree/main/img/Routing.png)
+![Routing](https://github.com/12zcab/Retro-Pad/tree/main/img/Routing.png)
 
-\## Notes
+## Notes
 
 Erm the Emulator Part is not yet programmed as i haven't build it irl yet
 
@@ -27,7 +27,7 @@ Also as i like Looking at PCBs so the case will be really simple
 
 
 
-\## Why I build this?
+## Why I build this?
 
 1.My Current Keyboard is DUMB
 
@@ -37,7 +37,7 @@ Also as i like Looking at PCBs so the case will be really simple
 
 
 
-\## What it can do?
+## What it can do?
 
 1.Bluetooth/USB keyboard support
 
@@ -55,7 +55,7 @@ Also as i like Looking at PCBs so the case will be really simple
 
 
 
-\## Component List
+## Component List
 
 |---|---|---|
 
