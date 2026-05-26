@@ -65,6 +65,10 @@ Exported Gerber Files
 Exported PCB 3D files
 
 Included the CherryMX KeyCaps from another repo
-
 Erm i think my computer got some problem so i will finish the STL case next time
 
+Day5 26/5/2026
+
+Finished the basic case and also keycap amount table for R1-R4 and U1 to U5.25
+Erm as my Space bar is only 5.25U sooooooo i hope it can work without stablizer
+(Hopefulyl it will work like:  - _ )and not - \ :DDDDD anybody get it?

@@ -3,7 +3,7 @@ What happens if a keyboard can emulate Retro Stuff?
 Yah its just a simple keyboard but include a 4inch tft and speaker for Retro Emulation and Designed for myself.
 
 ## Zine Page Design
-Not Done Yet
+https://www.figma.com/design/CGgY6SRriEGCdJu8L95h5M/Retro-Pad-Zine-Page?node-id=0-1&t=7zGqFnisPlWxRSIn-1
 ## Images
 ![Design](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Design.png)
 ![PCB_F](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/PCB_F.png)
@@ -40,3 +40,24 @@ Also as i like Looking at PCBs so the case will be really simple
 | LiBattery 3.7V | Any Capacity u want | 1 |
 | LiBattery 3.7v-5v Protector Board and Charger Board | same as the name | 1 |
 Also prepare some 2.54 Dupont Socket and PinHeaders incase if u may disassemble it or replace some modules.
+
+## 3D printing List and Keycap List
+|   | R1 | R2 | R3 | R4 |
+|---|---|---|---|---|
+|U1|Fn Alt Ctrl ArrowL ArrowR ArrowD ZXCVBNM,./ ArrowU|ASDFGHJKL;'|QWERTYUIOP[]|`1234567890-= Esc F1-12 Delete|
+|U1.25|Win Alt Ctrl||||
+|U1.5|||Tab \||
+|U1.75||Caps Lock|||
+|U2||||BackSpace|
+|U2.25|Shift|Enter|||
+|U5.25|Space||||
+|   | R1 | R2 | R3 | R4 | SUM |
+|---|---|---|---|---|---|
+|U1|17|11|12|27|67|
+|U1.25|3||||3|
+|U1.5|||2||2|
+|U1.75||1|||1|
+|U2||||1|1|
+|U2.25|1|1|||2|
+|U5.25|1||||1|
+|..|..|..|..|..|77|

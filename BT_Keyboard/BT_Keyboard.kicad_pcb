@@ -40135,7 +40135,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "afafe46b-cb39-4f46-ab5a-7440ef8ee676")
-		(at 166.60125 137.84)
+		(at 166.7 137.8)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW72"
@@ -87969,14 +87969,6 @@
 		(uuid "c633557d-bc00-4ac8-9674-ae438e047260")
 	)
 	(segment
-		(start 125.8 136.20375)
-		(end 113.89375 148.11)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "X3")
-		(uuid "0340a0a7-928b-406e-b395-e35722579e5f")
-	)
-	(segment
 		(start 111.5125 86.571598)
 		(end 111.5125 90.96)
 		(width 0.2)
@@ -88010,11 +88002,27 @@
 	)
 	(segment
 		(start 125.8 129.06)
-		(end 125.8 136.20375)
+		(end 121.1 133.76)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "X3")
-		(uuid "55ae5574-ac34-4b4e-8d8d-c50d48eff3d9")
+		(uuid "3d30572e-ca8e-4367-908d-4c1dc9bf62e7")
+	)
+	(segment
+		(start 121.1 133.76)
+		(end 121.1 140.90375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "X3")
+		(uuid "527a50ec-2b9b-4f19-bdf4-667406a1d7d5")
+	)
+	(segment
+		(start 121.1 140.90375)
+		(end 113.89375 148.11)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "X3")
+		(uuid "7a512cf1-5190-496c-9e2b-4d60081b0879")
 	)
 	(segment
 		(start 113.375 92.8225)
@@ -88831,6 +88839,14 @@
 		(layer "B.Cu")
 		(net "Net-(J2-Pin_3)")
 		(uuid "720e8d8a-45a7-4e6e-9c05-30adc2bf1f72")
+	)
+	(segment
+		(start 235.426179 97.1)
+		(end 235.426179 100.7)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(J2-Pin_5)")
+		(uuid "d00f56ec-809a-4cc3-b053-1e9d5b6d364e")
 	)
 	(segment
 		(start 253.206179 97.1)
@@ -89759,14 +89775,6 @@
 		(layer "B.Cu")
 		(net "Net-(D64-A)")
 		(uuid "7d1ea7f4-8276-4436-9ea6-4e1b2f2316c4")
-	)
-	(segment
-		(start 235.426179 97.1)
-		(end 235.426179 100.7)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(J2-Pin_5)")
-		(uuid "d00f56ec-809a-4cc3-b053-1e9d5b6d364e")
 	)
 	(embedded_fonts no)
 )
