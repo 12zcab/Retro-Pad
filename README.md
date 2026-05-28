@@ -2,6 +2,8 @@
 What happens if a keyboard can emulate Retro Stuff?
 Yah its just a simple keyboard but include a 4inch tft and speaker for Retro Emulation and Designed for myself.
 
+## Tinkercad Link
+https://www.tinkercad.com/things/bjJYySNUwrn-blekeyboard-esp32?sharecode=VCYoCMCinC_T4FhX9W5qrWKZ11Hd7W0aXTLVOQ6IZxw
 ## Zine Page Design
 https://www.figma.com/design/CGgY6SRriEGCdJu8L95h5M/Retro-Pad-Zine-Page?node-id=0-1&t=7zGqFnisPlWxRSIn-1
 ## Images
