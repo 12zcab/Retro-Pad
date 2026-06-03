@@ -72,3 +72,11 @@ Day5 26/5/2026
 Finished the basic case and also keycap amount table for R1-R4 and U1 to U5.25
 Erm as my Space bar is only 5.25U sooooooo i hope it can work without stablizer
 (Hopefulyl it will work like:  - _ )and not - \ :DDDDD anybody get it?
+
+Day6 3/6/2026
+Requirement Checklist:
+1.Update the Photo in Figma DONE
+2.Update all the PCB designs in GitHub   DONE
+3.Add Zine Photo to Readme.md  DONE  
+4.Add mounting holes for the PCB  DONE 
+5.Make a Better Case with Fusion (with Text and rounded Edges and also mounting pins for positioning)  DONE

@@ -81878,6 +81878,50 @@
 		(layer "Edge.Cuts")
 		(uuid "c4a28a1f-7e9f-405a-9991-584f4ed2e752")
 	)
+	(gr_circle
+		(center 32.9 119.081776)
+		(end 29.35158 115.533356)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "66cc4108-ce05-4f14-b024-ba6dcaaee978")
+	)
+	(gr_circle
+		(center 166.9 43.581776)
+		(end 163.35158 40.033356)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b6c634ad-cafe-4af8-b2b8-789fa276425a")
+	)
+	(gr_circle
+		(center 256.881776 146.6)
+		(end 253.333356 143.05158)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a55823dd-869e-416c-a6b2-4b3beed85077")
+	)
+	(gr_circle
+		(center 430.481776 119)
+		(end 426.933356 115.45158)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2961915a-c740-4e24-880d-f285b21d457e")
+	)
 	(gr_text "ESC F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Del\n` 1 2 3 4 5 6 7 8 9 0 - = BackSpace\nTab q w e r t y u i o p [ ] \\\nCaps a s d f g h j k l ; ' Enter\nShift z x c v b n m , . / Up\nCtrl Fn Windows Alt Space Alt Ctrl left Down right"
 		(at 195.006179 126.9 0)
 		(layer "F.SilkS")

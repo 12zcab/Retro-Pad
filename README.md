@@ -6,11 +6,13 @@ Yah its just a simple keyboard but include a 4inch tft and speaker for Retro Emu
 https://www.tinkercad.com/things/bjJYySNUwrn-blekeyboard-esp32?sharecode=VCYoCMCinC_T4FhX9W5qrWKZ11Hd7W0aXTLVOQ6IZxw
 ## Zine Page Design
 https://www.figma.com/design/CGgY6SRriEGCdJu8L95h5M/Retro-Pad-Zine-Page?node-id=0-1&t=7zGqFnisPlWxRSIn-1
+![Zine](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Zine.png)
 ## Images
 ![Design](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Design.png)
 ![PCB_F](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/PCB_F.png)
 ![PCB_B](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/PCB_B.png)
 ![Routing](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Routing.png)
+![Case](https://github.com/12zcab/Retro-Pad/raw/refs/heads/main/img/Render_Case.png)
 
 ## Notes
 Erm the Emulator Part is not yet programmed as i haven't build it irl yet
