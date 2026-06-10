@@ -80,3 +80,8 @@ Requirement Checklist:
 3.Add Zine Photo to Readme.md  DONE  
 4.Add mounting holes for the PCB  DONE 
 5.Make a Better Case with Fusion (with Text and rounded Edges and also mounting pins for positioning)  DONE
+
+Day7 10/6/2026
+Rendered the 3D image with Keycaps
+Added Cost for BOM.csv
+Resubmitting.
